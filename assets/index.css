@@ -1,0 +1,41 @@
+* {
+    user-select: none;
+}
+
+.mainpageico {
+    width: 22px;
+    height: 22px;
+    transform: translateY(-15px);
+    margin-right: 3px;
+    margin-bottom: -17px;
+}
+
+.bigtitle {
+    background-image: linear-gradient(60deg, #42d392, #5f8bee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+
+.btn {
+    border-radius: 8px;
+    background-color: #2f2f2f;
+    border: 4px solid #2f2f2f;
+    color: #aac8e4;
+    font-family: 'Consolas';
+    font-size: large;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.btn:hover
+{
+    background-color: #393939;
+    border: 4px solid #393939;
+}
